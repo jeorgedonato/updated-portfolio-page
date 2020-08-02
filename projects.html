@@ -23,7 +23,7 @@
   <header>
     <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
-        <a class="navbar-item banner-container mt-3" href="#">
+        <a class="navbar-item banner-container mt-3" href="index.html">
           <img class="" src="assets/images/portfolio-banner.jpg">
         </a>
 
@@ -38,14 +38,17 @@
         <div class="navbar-end">
           <div class="navbar-item is-family-primary link-container">
             <!-- <div class="buttons"> -->
-            <a class="navbar-item is-size-5 has-text-centered-touch" href="index.html">
+            <a class="navbar-item is-size-5 has-text-centered-touch" href="#about">
               <strong>About</strong>
             </a>
-            <a class="navbar-item is-size-5 has-text-centered-touch" href="projects.html">
-              <strong>Projects</strong>
+            <a class="navbar-item is-size-5 has-text-centered-touch" href="#portfolio">
+              <strong>Portfolio</strong>
             </a>
-            <a class="navbar-item is-size-5 has-text-centered-touch" href="skills.html">
+            <a class="navbar-item is-size-5 has-text-centered-touch" href="#skills">
               <strong>Skills</strong>
+            </a>
+            <a class="navbar-item is-size-5 has-text-centered-touch" href="#contact">
+              <strong>Contact</strong>
             </a>
             <!-- </div> -->
           </div>
@@ -55,45 +58,49 @@
   </header>
 
   <section>
-    <div class="container" id="about">
+    <div class="container">
       <div class="section container-section">
-        <div class="columns is-family-primary  px-6 column-container is-desktop" id="about">
+        <div class="columns is-family-primary" id="portfolio">
           <div class="column ">
-            <div class="about-container has-text-centered ">
-              <h5 class="title is-size-2">About Me</h5>
-              <p class="has-text-left is-size-5">Experienced Full Stack Web Developer with a Bachelor's Degree in
-                Information Technology. Currently
-                taking a
-                Full Stack Web Development Bootcamp at UC Irvine to enhance my skills in Javascript, HTML, CSS, and both
-                front-end back-end frameworks. Previously worked as a Full Stack Web Developer and lead a team of 3
-                known as quality-driven and passionate about writing clean and concise codes.</p><br>
-              <p class="has-text-left is-size-5">Located in Anaheim, CA. I am currently looking for new Web Development
-                opportunities.</p>
-            </div>
-          </div>
-          <div class="column">
-            <div class="about-container has-text-centered ">
-              <figure class="image ">
-                <img class="pic-things" src="assets/images/about-pic.jpg" style="width: 300px;height: 400px;">
-              </figure>
+            <div class="portfolio-container has-text-centered">
+              <h5 class="title is-size-2">Portfolio</h5>
+              <div class="section">
+                <div class="tile is-ancestor tile-container">
+                  <div class="tile is-parent">
+                    <article class="tile is-child box">
+                      <p class="title">To Make or To Go</p>
+                      <p class="subtitle">What is up?</p>
+                    </article>
+                  </div>
+                  <div class="tile is-parent">
+                    <article class="tile is-child box">
+                      <p class="title">Weather Dashboard</p>
+                      <p class="subtitle">Bar</p>
+                    </article>
+                  </div>
+                  <div class="tile is-parent">
+                    <article class="tile is-child box">
+                      <p class="title">Code Quiz</p>
+                      <p class="subtitle">With some content</p>
+                      <div class="content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu
+                          pellentesque
+                          tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+                        <a href="button">Repo</a>
+                        <a href="button">Live Demo</a>
+                      </div>
+                    </article>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-
       </div>
     </div>
 
-    <div class="columns is-family-primary git-columns">
-      <div class="column">
-        <div class="github-container py-5 has-text-centered">
-          <div class="github-text">
-            <p class="has-text-white title is-size-1">Add me on Github</p>
-            <p class="is-uppercase is-family-code"><a class="has-text-info is-size-4" target="_blank"
-                href="https://github.com/jeorgedonato">https://github.com/jeorgedonato</a></p>
-          </div>
-        </div>
-      </div>
-    </div>
+
+
   </section>
 
   <footer class="footer">

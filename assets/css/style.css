@@ -1,0 +1,78 @@
+html{
+  scroll-behavior: smooth;
+}
+
+.about-container{
+  padding: 3rem 4vw;
+}
+
+.tile-container{
+  padding: 3rem 4vw;
+}
+
+.pic-things{
+  display: block;
+  margin: 4rem auto 0px;
+}
+
+.git-columns{
+  margin-top: 3.4rem;
+}
+
+.github-container{
+  background-color: #000000;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 050px 0px 050px 0px;
+}
+
+.link-container, .navbar-burger {
+  padding-right: 5rem;
+}
+
+.banner-container{
+  padding-left: 5rem;
+}
+
+/* Media Screens */
+
+@media screen and (max-width: 1023px)
+{
+  .link-container{
+    padding-right: 0rem;
+  }
+  .container-section{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .pic-things{
+  display: block;
+  margin: 0px auto 2rem;
+}
+.git-columns{
+  margin-top: 0rem;
+}
+}
+
+@media screen and (max-width: 600px)
+{
+  .about-container{
+  padding: 3rem 0px;
+  }
+  .column-container{
+    padding: 0px 0.5rem !important;
+  }
+
+  .tile-container{
+  padding: 3rem 0vw;
+}
+}
+
+
+@media screen and (max-width: 400px)
+{
+  .banner-container{
+    padding-left: calc(5vw - 0.5rem);
+  }
+}
+
+/* Media Screens */
