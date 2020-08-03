@@ -3,7 +3,12 @@ html{
 }
 
 .about-container{
-  padding: 3rem 4vw;
+  padding: 2.7rem 4vw;
+}
+
+.skills-skill-container{
+  padding-top: 6.5rem;
+  padding-bottom: 6rem;
 }
 
 .form-footer-container{
@@ -17,6 +22,11 @@ html{
 .pic-things{
   display: block;
   margin: 4rem auto 0px;
+}
+
+.center-things{
+  display: block;
+  margin: 0px auto;
 }
 
 .git-columns{
@@ -45,6 +55,43 @@ html{
   padding-left: 5rem;
 }
 
+.project-container{
+  height: 20rem;
+}
+
+#to-make-to-go{
+  background-image: url(../images/tomaketogo.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-clip: content-box;
+  background-position-y: 5px;
+}
+
+#weather-dashboard{
+  background-image: url(../images/weather-dashboard.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-clip: content-box;
+  background-position-y: 10px;
+    background-position-x: 11px;
+}
+
+#code-quiz{
+  background-image: url(../images/code-quiz.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-clip: content-box;
+  background-position-y: 10px;
+}
+
+.project-tile-container{
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
 /* Media Screens */
 
 @media screen and (max-width: 1023px)
@@ -62,6 +109,18 @@ html{
 }
 .git-columns{
   margin-top: 0rem;
+}
+}
+
+@media screen and (max-width: 768px)
+{
+  .skills-skill-container{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.project-tile-container{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 }
 

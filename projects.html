@@ -20,7 +20,7 @@
 </head>
 
 <body class="has-navbar-fixed-top">
- <header>
+  <header>
     <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
         <a class="navbar-item banner-container mt-3" href="index.html">
@@ -60,47 +60,55 @@
         <div class="columns is-family-primary" id="portfolio">
           <div class="column ">
             <div class="portfolio-container has-text-centered">
-              <h5 class="title is-size-2">Portfolio</h5>
-              <div class="section">
-                <div class="tile is-ancestor tile-container">
-                  <div class="tile is-parent">
-                    <article class="tile is-child box">
-                      <p class="title">To Make or To Go</p>
-                      <p class="subtitle">What is up?</p>
-                    </article>
-                  </div>
-                  <div class="tile is-parent">
-                    <article class="tile is-child box">
-                      <p class="title">Weather Dashboard</p>
-                      <p class="subtitle">Bar</p>
-                    </article>
-                  </div>
-                  <div class="tile is-parent">
-                    <article class="tile is-child box">
-                      <p class="title">Code Quiz</p>
-                      <p class="subtitle">With some content</p>
-                      <div class="content">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu
-                          pellentesque
-                          tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
-                        <a href="button">Repo</a>
-                        <a href="button">Live Demo</a>
-                      </div>
-                    </article>
-                  </div>
-                </div>
-              </div>
+              <h5 class="title is-size-2">Projects</h5>
             </div>
           </div>
+        </div>
+        <div class="columns project-tile-container">
+          <div class="column">
+            <div class="tile is-parent project-container" id="to-make-to-go">
+              
+            </div>
+          </div>
+
+          <div class="column">
+            <div class="tile is-parent project-container" id="weather-dashboard">
+              
+            </div>
+          </div>
+
+          <div class="column">
+            <div class="tile is-parent project-container" id="code-quiz">
+              
+            </div>
+          </div>
+
         </div>
       </div>
     </div>
 
 
 
+
+
+    <div class="columns is-family-primary git-columns">
+      <div class="column">
+        <div class="github-container py-5 has-text-centered">
+          <div class="github-text py-2">
+            <p class="has-text-white title is-size-2">Get a Physical Copy of my Resume</p>
+            <p class="is-uppercase ">
+              <div class="control">
+                <a class="button is-info" target="_blank" href="assets/resume/Donato_Jeorge_Resume.docx">Click Here</a>
+              </div>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
   </section>
 
- <footer class="footer has-background-grey-light">
+  <footer class="footer has-background-grey-light">
 
     <div class="container">
       <!-- <div class="section" > -->
@@ -129,20 +137,21 @@
               </p>
             </div>
             <div class="control">
-              <button class="button is-info" id="footer-btn" >Submit</button>
+              <button class="button is-info" id="footer-btn">Submit</button>
             </div>
 
-             <div class="title is-5" id="contact-container">
+            <div class="title is-5" id="contact-container">
               <p>
                 <a href="tel:7144682863"><i class="fas fa-phone"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
                 <a href="mailto:jeorgekhenr@gmail.com"><i class="fas fa-envelope"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
-                <a href="https://www.linkedin.com/in/jeorgejdonato/" target="_blank"><i class="fab fa-linkedin"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="https://www.linkedin.com/in/jeorgejdonato/" target="_blank"><i
+                    class="fab fa-linkedin"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
                 <a href="https://github.com/jeorgedonato" target="_blank"><i class="fab fa-github"></i></a>
               </p>
               <p class="mt-5">
                 © Jeorge Janil Donato 2020
               </p>
-             </div>
+            </div>
           </div>
         </div>
       </div>
@@ -152,6 +161,7 @@
   </footer>
 
   <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
   <script src="assets/scripts/script.js"></script>
 </body>
 
