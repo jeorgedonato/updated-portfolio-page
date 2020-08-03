@@ -56,6 +56,10 @@
 
   <section>
     <div class="container">
+      <div class="alert-area"></div>
+
+
+
       <div class="section container-section">
         <div class="columns is-family-primary" id="skills">
           <div class="column">
@@ -66,40 +70,50 @@
         </div>
 
         <div class="skills-skill-container px-6">
-        <div class="columns">
-          <div class="column">
-            <figure class="image is-128x128 center-things"><img class="is-rounded" src="assets/images/html5.png" alt="HTML5"></figure>
+          <div class="columns">
+            <div class="column">
+              <figure class="image is-128x128 center-things"><img class="is-rounded" src="assets/images/html5.png"
+                  alt="HTML5"></figure>
+            </div>
+            <div class="column">
+              <figure class="image is-128x128 center-things"><img class="is-rounded" src="assets/images/css3.png"
+                  alt="CSS3"></figure>
+            </div>
+            <div class="column">
+              <figure class="image is-128x128 center-things"><img class="is-rounded" src="assets/images/js.png"
+                  alt="Javascript"></figure>
+            </div>
+            <div class="column">
+              <figure class="image is-128x128 center-things"><img class="is-rounded" src="assets/images/php.png"
+                  alt="PHP"></figure>
+            </div>
+            <div class="column">
+              <figure class="image is-128x128 center-things"><img class="is-rounded" src="assets/images/mysql.png"
+                  alt="MySQL"></figure>
+            </div>
           </div>
-          <div class="column">
-            <figure class="image is-128x128 center-things"><img class="is-rounded" src="assets/images/css3.png" alt="CSS3"></figure>
+          <div class="columns">
+            <div class="column">
+              <figure class="image is-128x128 center-things"><img class="is-rounded" src="assets/images/mongodb.jpg"
+                  alt="MongoDB"></figure>
+            </div>
+            <div class="column">
+              <figure class="image is-128x128 center-things"><img class="is-rounded" src="assets/images/nodejs.png"
+                  alt="NodeJS"></figure>
+            </div>
+            <div class="column">
+              <figure class="image is-128x128 center-things"><img class="is-rounded" src="assets/images/react.png"
+                  alt="ReactJS"></figure>
+            </div>
+            <div class="column">
+              <figure class="image is-128x128 center-things"><img class="is-rounded" src="assets/images/expressjs.png"
+                  alt="ExpressJS"></figure>
+            </div>
+            <div class="column">
+              <figure class="image is-128x128 center-things"><img class="is-rounded" src="assets/images/Redux.png"
+                  alt="Redux"></figure>
+            </div>
           </div>
-          <div class="column">
-            <figure class="image is-128x128 center-things"><img class="is-rounded" src="assets/images/js.png" alt="Javascript"></figure>
-          </div>
-          <div class="column">
-            <figure class="image is-128x128 center-things"><img class="is-rounded" src="assets/images/php.png" alt="PHP"></figure>
-          </div>
-          <div class="column">
-            <figure class="image is-128x128 center-things"><img class="is-rounded" src="assets/images/mysql.png" alt="MySQL"></figure>
-          </div>
-        </div>
-        <div class="columns">
-          <div class="column">
-            <figure class="image is-128x128 center-things"><img class="is-rounded" src="assets/images/mongodb.jpg" alt="MongoDB"></figure>
-          </div>
-          <div class="column">
-            <figure class="image is-128x128 center-things"><img class="is-rounded" src="assets/images/nodejs.png" alt="NodeJS"></figure>
-          </div>
-          <div class="column">
-            <figure class="image is-128x128 center-things"><img class="is-rounded" src="assets/images/react.png" alt="ReactJS"></figure>
-          </div>
-          <div class="column">
-            <figure class="image is-128x128 center-things"><img class="is-rounded" src="assets/images/expressjs.png" alt="ExpressJS"></figure>
-          </div>
-          <div class="column">
-            <figure class="image is-128x128 center-things"><img class="is-rounded" src="assets/images/Redux.png" alt="Redux"></figure>
-          </div>
-        </div>
         </div>
 
       </div>
@@ -131,7 +145,7 @@
           <div class="column has-text-centered">
             <div class="field">
               <p class="control has-icons-left has-icons-right">
-                <input class="input" type="text" name="name" placeholder="Name">
+                <input id="name" class="input name-input" type="text" placeholder="Name">
                 <span class="icon is-small is-left">
                   <i class="fas fa-user"></i>
                 </span>
@@ -139,7 +153,7 @@
             </div>
             <div class="field">
               <p class="control has-icons-left has-icons-right">
-                <input class="input" type="email" name="email" placeholder="Email">
+                <input id="email" class="input" type="email" placeholder="Email">
                 <span class="icon is-small is-left">
                   <i class="fas fa-envelope"></i>
                 </span>
@@ -147,7 +161,7 @@
             </div>
             <div class="field">
               <p class="control has-icons-left has-icons-right">
-                <textarea name="message" class="textarea" placeholder="Message"></textarea>
+                <textarea id="message" class="textarea" placeholder="Message"></textarea>
               </p>
             </div>
             <div class="control">

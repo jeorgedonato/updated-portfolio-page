@@ -103,6 +103,13 @@ html{
   height: 100%;
 }
 
+.alert-area{
+  position: fixed;
+  z-index: 100;
+    right: 1rem;
+    top: 5rem;
+}
+
 /* .project-btn{
   margin-top: 8rem;
 } */

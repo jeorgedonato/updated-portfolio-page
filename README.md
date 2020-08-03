@@ -21,11 +21,11 @@ To make a responsive web portfolio that was made using Bulma CSS Framework.
 
 **Screenshots**
 
-![Home Screenshot](/assets/images/home-screenshot.jpg)
+![Home Screenshot](/assets/images/home-screenshot.png)
 
 <!-- ![Validation Screenshot](/assets/function-screenshot.jpg) -->
 
-![Function Screenshot](/assets/images/function-screenshot.jpg)
+![Projects Screenshot](/assets/images/project-screenshot.jpg)
 
 ---
 

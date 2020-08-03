@@ -22,5 +22,39 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
+  const footerBtn = document.querySelector("#footer-btn");
+  let alertArea = document.querySelector(".alert-area");
+
+  let validateEmail = (email) => {
+    const re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    return re.test(String(email).toLowerCase());
+  }
+
+  //Show Alert
+  let stateAlert = (content, type) => {
+    alertArea.innerHTML = `<div class="notification is-${type} is-light" id="alert-clip" role="alert"><p class="title is-6">${content}</p></div>`;
+    setTimeout(() => { document.getElementById("alert-clip").style.display = "none"; }, 600);
+  };
+  //Show Alert
+
+
+  footerBtn.addEventListener("click", function (e) {
+    e.preventDefault();
+    let name = document.querySelector("input#name").value;
+    let email = document.querySelector("#email").value;
+    let message = document.querySelector("#message").value;
+    if (name && validateEmail(email) && message) {
+      //Validation works
+      name, email, message = '';
+      stateAlert(`Email sent!`, "success");
+    } else if (!validateEmail(email)) {
+      stateAlert(`Please provide a valid email!`, "danger");
+    } else {
+      stateAlert(`All fields are required!`, "danger");
+    }
+  })
 
 })
+
+
+
