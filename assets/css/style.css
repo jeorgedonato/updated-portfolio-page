@@ -6,6 +6,10 @@ html{
   padding: 3rem 4vw;
 }
 
+.form-footer-container{
+  padding: 1.5rem 20vw;
+}
+
 .tile-container{
   padding: 3rem 4vw;
 }
@@ -23,6 +27,14 @@ html{
   background-color: #000000;
     transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
     padding: 050px 0px 050px 0px;
+}
+
+#contact-container{
+  margin-top: 2rem;
+}
+
+#footer-btn{
+  width: 100%;
 }
 
 .link-container, .navbar-burger {
@@ -64,6 +76,9 @@ html{
 
   .tile-container{
   padding: 3rem 0vw;
+}
+.form-footer-container{
+  padding: 1.5rem 0vw;
 }
 }
 

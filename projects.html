@@ -20,7 +20,7 @@
 </head>
 
 <body class="has-navbar-fixed-top">
-  <header>
+ <header>
     <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
         <a class="navbar-item banner-container mt-3" href="index.html">
@@ -38,17 +38,14 @@
         <div class="navbar-end">
           <div class="navbar-item is-family-primary link-container">
             <!-- <div class="buttons"> -->
-            <a class="navbar-item is-size-5 has-text-centered-touch" href="#about">
-              <strong>About</strong>
+            <a class="navbar-item is-size-5 has-text-centered-touch" href="index.html">
+              <strong>Home</strong>
             </a>
-            <a class="navbar-item is-size-5 has-text-centered-touch" href="#portfolio">
-              <strong>Portfolio</strong>
+            <a class="navbar-item is-size-5 has-text-centered-touch" href="projects.html">
+              <strong>Projects</strong>
             </a>
-            <a class="navbar-item is-size-5 has-text-centered-touch" href="#skills">
+            <a class="navbar-item is-size-5 has-text-centered-touch" href="skills.html">
               <strong>Skills</strong>
-            </a>
-            <a class="navbar-item is-size-5 has-text-centered-touch" href="#contact">
-              <strong>Contact</strong>
             </a>
             <!-- </div> -->
           </div>
@@ -103,12 +100,55 @@
 
   </section>
 
-  <footer class="footer">
-    <div class="content has-text-centered">
-      <p>
-        © <a href="https://github.com/jeorgedonato" target="_blank">Jeorge Donato</a> 2020
-      </p>
+ <footer class="footer has-background-grey-light">
+
+    <div class="container">
+      <!-- <div class="section" > -->
+      <div class="form-footer-container">
+        <div class="columns">
+          <div class="column has-text-centered">
+            <div class="field">
+              <p class="control has-icons-left has-icons-right">
+                <input class="input" type="text" name="name" placeholder="Name">
+                <span class="icon is-small is-left">
+                  <i class="fas fa-user"></i>
+                </span>
+              </p>
+            </div>
+            <div class="field">
+              <p class="control has-icons-left has-icons-right">
+                <input class="input" type="email" name="email" placeholder="Email">
+                <span class="icon is-small is-left">
+                  <i class="fas fa-envelope"></i>
+                </span>
+              </p>
+            </div>
+            <div class="field">
+              <p class="control has-icons-left has-icons-right">
+                <textarea name="message" class="textarea" placeholder="Message"></textarea>
+              </p>
+            </div>
+            <div class="control">
+              <button class="button is-info" id="footer-btn" >Submit</button>
+            </div>
+
+             <div class="title is-5" id="contact-container">
+              <p>
+                <a href="tel:7144682863"><i class="fas fa-phone"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="mailto:jeorgekhenr@gmail.com"><i class="fas fa-envelope"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="https://www.linkedin.com/in/jeorgejdonato/" target="_blank"><i class="fab fa-linkedin"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="https://github.com/jeorgedonato" target="_blank"><i class="fab fa-github"></i></a>
+              </p>
+              <p class="mt-5">
+                © Jeorge Janil Donato 2020
+              </p>
+             </div>
+          </div>
+        </div>
+      </div>
+      <!-- </div> -->
     </div>
+
   </footer>
 
   <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
