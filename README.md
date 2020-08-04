@@ -25,7 +25,7 @@ To make a responsive web portfolio that was made using Bulma CSS Framework.
 
 <!-- ![Validation Screenshot](/assets/function-screenshot.jpg) -->
 
-![Projects Screenshot](/assets/images/project-screenshot.jpg)
+![Projects Screenshot](/assets/images/project-screenshot.png)
 
 ---
 

@@ -40,14 +40,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
   footerBtn.addEventListener("click", function (e) {
     e.preventDefault();
-    let name = document.querySelector("input#name").value;
-    let email = document.querySelector("#email").value;
-    let message = document.querySelector("#message").value;
-    if (name && validateEmail(email) && message) {
+    let name = document.querySelector("input#name");
+    let email = document.querySelector("#email");
+    let message = document.querySelector("#message");
+    if (name.value && validateEmail(email.value) && message.value) {
       //Validation works
-      name, email, message = '';
+      name.value = '';
+      email.value = '';
+      message.value = '';
       stateAlert(`Email sent!`, "success");
-    } else if (!validateEmail(email)) {
+    } else if (!validateEmail(email.value)) {
       stateAlert(`Please provide a valid email!`, "danger");
     } else {
       stateAlert(`All fields are required!`, "danger");
